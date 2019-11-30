@@ -8,7 +8,7 @@ const App =  () => {
             <h1>Hello World</h1>
             <h2 >{state}</h2>
             <button id='inc' onClick={() => setState(prev => prev+1)}>+</button>
-            <button id='dec' onClick={() => !!state && setState(prev => prev-1)}>-</button>
+            <button id='dec' onClick={() => setState(prev => prev-1)}>-</button>
         </>
     )
 }
