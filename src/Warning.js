@@ -1,3 +1,5 @@
 import React from 'react'
 
-export default () => <span className="warning">Take it Easy!</span>
+export default function Warning() {
+  return <span className="warning">Take it Easy!</span>
+}
